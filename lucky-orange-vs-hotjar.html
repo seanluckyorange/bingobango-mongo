@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucky Orange vs Hotjar (2025): Features, Pricing & the Clear Winner</title>
+  <meta name="description" content="Comparing Lucky Orange vs Hotjar? Lucky Orange includes every feature on every plan — heatmaps, session recordings, surveys, and AI — for up to 50% less. See the full breakdown." />
+  <meta name="keywords" content="Lucky Orange vs Hotjar, Hotjar alternative, heatmap tool comparison, session recording software, CRO tools comparison, Hotjar pricing" />
+  <link rel="canonical" href="https://www.luckyorange.com/lucky-orange-vs-hotjar" />
+  <meta property="og:title" content="Lucky Orange vs Hotjar (2025) — Features, Pricing & the Clear Winner" />
+  <meta property="og:description" content="Lucky Orange includes heatmaps, recordings, surveys, and AI on every plan. Hotjar charges extra for all of them. See the full side-by-side." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Lucky Orange vs Hotjar",
+    "description": "Detailed feature and pricing comparison between Lucky Orange and Hotjar for website behavior analytics.",
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Comparison: Lucky Orange vs Hotjar",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Lucky Orange", "url": "https://www.luckyorange.com" },
+        { "@type": "ListItem", "position": 2, "name": "Hotjar", "url": "https://www.hotjar.com" }
+      ]
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --orange: #FF6B00;
+      --orange-light: #FF8C33;
+      --orange-pale: #FFF3EA;
+      --navy: #0F1B2D;
+      --navy-mid: #1E2D42;
+      --slate: #3D5068;
+      --muted: #6B7F96;
+      --border: #E2E8F0;
+      --bg: #FAFBFC;
+      --white: #FFFFFF;
+      --green: #10B981;
+      --green-pale: #ECFDF5;
+      --red: #EF4444;
+      --red-pale: #FEF2F2;
+      --hotjar: #FD3A5C;
+      --hotjar-pale: #FFF0F3;
+      --radius: 14px;
+      --shadow-sm: 0 1px 3px rgba(15,27,45,.06);
+      --shadow-md: 0 4px 16px rgba(15,27,45,.10), 0 2px 6px rgba(15,27,45,.06);
+      --shadow-lg: 0 20px 50px rgba(15,27,45,.14), 0 8px 20px rgba(15,27,45,.08);
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; color: var(--navy); background: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,.93); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 64px;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.1rem; color: var(--navy); text-decoration: none; }
+    .nav-logo-icon { width: 32px; height: 32px; background: var(--orange); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+    .nav-links a { color: var(--slate); text-decoration: none; font-size: .9rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover { color: var(--navy); }
+    .nav-ctas { display: flex; align-items: center; gap: 12px; }
+    .btn-ghost { color: var(--slate); font-size: .875rem; font-weight: 500; text-decoration: none; padding: 8px 16px; border-radius: 8px; transition: background .2s; }
+    .btn-ghost:hover { background: var(--bg); }
+    .btn-primary { background: var(--orange); color: white; font-weight: 600; font-size: .875rem; padding: 10px 20px; border-radius: 8px; text-decoration: none; transition: background .2s, transform .15s; border: none; cursor: pointer; display: inline-block; }
+    .btn-primary:hover { background: var(--orange-light); transform: translateY(-1px); }
+    .btn-primary-lg { font-size: 1.05rem; padding: 15px 32px; border-radius: 10px; }
+
+    /* ── BREADCRUMB ── */
+    .breadcrumb { padding: 14px 5%; background: var(--bg); border-bottom: 1px solid var(--border); }
+    .breadcrumb ol { list-style: none; display: flex; align-items: center; gap: 8px; font-size: .78rem; color: var(--muted); }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--orange); }
+    .breadcrumb li:not(:last-child)::after { content: '/'; margin-left: 8px; }
+    .breadcrumb li:last-child { color: var(--navy); font-weight: 600; }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 80px 5% 72px;
+      text-align: center;
+      background: linear-gradient(180deg, #FFF8F2 0%, var(--white) 70%);
+    }
+    .vs-badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: white; border: 1.5px solid var(--border);
+      border-radius: 100px; padding: 6px 18px; margin-bottom: 28px;
+      font-size: .8rem; font-weight: 700; color: var(--slate);
+      box-shadow: var(--shadow-sm);
+    }
+    .vs-badge .lo { color: var(--orange); }
+    .vs-badge .hj { color: var(--hotjar); }
+    .vs-badge .divider { color: var(--border); }
+    h1 { font-size: clamp(2.2rem, 4.5vw, 3.5rem); font-weight: 900; letter-spacing: -.03em; line-height: 1.1; max-width: 820px; margin: 0 auto 20px; }
+    h1 em { color: var(--orange); font-style: normal; }
+    .hero-sub { font-size: clamp(1rem, 1.7vw, 1.18rem); color: var(--slate); max-width: 580px; margin: 0 auto 36px; line-height: 1.75; }
+    .hero-trust { margin-top: 16px; font-size: .8rem; color: var(--muted); }
+    .hero-trust .check { color: var(--green); font-weight: 600; }
+
+    /* ── VERDICT STRIP ── */
+    .verdict-strip { background: var(--navy); padding: 28px 5%; }
+    .verdict-inner { max-width: 960px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(255,255,255,.1); border-radius: 14px; overflow: hidden; }
+    .verdict-item { background: var(--navy); padding: 24px 28px; text-align: center; }
+    .verdict-num { font-size: 2rem; font-weight: 900; color: var(--orange); letter-spacing: -.03em; line-height: 1; }
+    .verdict-label { font-size: .78rem; color: rgba(255,255,255,.55); margin-top: 6px; line-height: 1.5; }
+
+    /* ── SECTION SHARED ── */
+    section { padding: 80px 5%; }
+    .section-label { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--orange); margin-bottom: 12px; }
+    h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 800; letter-spacing: -.025em; line-height: 1.2; color: var(--navy); }
+    .section-sub { font-size: 1rem; color: var(--slate); margin-top: 14px; line-height: 1.75; }
+
+    /* ── FEATURE COMPARISON TABLE ── */
+    .comparison-section { background: var(--bg); }
+    .comparison-inner { max-width: 920px; margin: 0 auto; }
+    .comparison-inner > h2 { text-align: center; margin-bottom: 10px; }
+    .comparison-inner > p { text-align: center; color: var(--slate); margin-bottom: 48px; font-size: 1rem; }
+    .comp-table-wrap { border-radius: 18px; overflow: hidden; border: 1.5px solid var(--border); box-shadow: var(--shadow-md); }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    thead th { padding: 18px 20px; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--border); text-align: left; }
+    thead th.lo-col { background: var(--orange-pale); color: var(--orange); text-align: center; }
+    thead th.hj-col { background: var(--hotjar-pale); color: var(--hotjar); text-align: center; }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background .15s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--bg); }
+    tbody td { padding: 16px 20px; font-size: .88rem; color: var(--slate); }
+    tbody td.feat-name { font-weight: 600; color: var(--navy); }
+    tbody td.feat-name .feat-sub { font-size: .75rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
+    tbody td.lo-col, tbody td.hj-col { text-align: center; font-weight: 600; }
+    tbody td.lo-col { background: rgba(255,107,0,.03); }
+    .yes { color: var(--green); font-size: 1rem; }
+    .no { color: #CBD5E1; font-size: 1rem; }
+    .partial { color: #F59E0B; font-size: .78rem; font-weight: 700; }
+    .section-row td { background: var(--bg) !important; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 10px 20px; }
+
+    /* ── PRICING COMPARISON ── */
+    .pricing-section { background: var(--white); }
+    .pricing-inner { max-width: 920px; margin: 0 auto; }
+    .pricing-inner > h2 { text-align: center; margin-bottom: 10px; }
+    .pricing-inner > p { text-align: center; color: var(--slate); margin-bottom: 48px; }
+    .pricing-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .pricing-card { border-radius: 18px; padding: 36px; border: 2px solid var(--border); }
+    .pricing-card.lo { border-color: var(--orange); background: linear-gradient(145deg, #fff8f2 0%, white 60%); }
+    .pricing-card.hj { background: var(--hotjar-pale); border-color: #FECDD3; }
+    .pricing-card-label { font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .pricing-card-label.lo { color: var(--orange); }
+    .pricing-card-label.hj { color: var(--hotjar); }
+    .pricing-winner { background: var(--orange); color: white; font-size: .6rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; letter-spacing: .05em; }
+    .pricing-card h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 20px; }
+    .pricing-line { display: flex; align-items: flex-start; gap: 10px; font-size: .88rem; color: var(--slate); margin-bottom: 12px; line-height: 1.5; }
+    .pricing-line-icon { flex-shrink: 0; margin-top: 1px; }
+    .pricing-big { display: flex; align-items: baseline; gap: 6px; margin: 20px 0 8px; }
+    .pricing-big .amount { font-size: 2.8rem; font-weight: 900; letter-spacing: -.04em; color: var(--navy); }
+    .pricing-big .period { font-size: .85rem; color: var(--muted); }
+    .pricing-sessions { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .pricing-total { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); font-size: .85rem; font-weight: 700; }
+    .pricing-total .save { color: var(--green); }
+    .pricing-total .overpay { color: var(--hotjar); }
+    .pricing-cta { display: block; text-align: center; margin-top: 20px; background: var(--orange); color: white; font-weight: 700; padding: 13px; border-radius: 10px; text-decoration: none; font-size: .9rem; transition: background .2s; }
+    .pricing-cta:hover { background: var(--orange-light); }
+
+    /* ── FEATURE SPOTLIGHT (alternating) ── */
+    .spotlights { background: var(--bg); }
+    .spotlight {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center;
+      max-width: 1040px; margin: 0 auto 88px;
+    }
+    .spotlight:last-child { margin-bottom: 0; }
+    .spotlight.reverse { direction: rtl; }
+    .spotlight.reverse > * { direction: ltr; }
+    .spotlight-text .tag { display: inline-block; background: var(--orange-pale); color: var(--orange); font-size: .7rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; margin-bottom: 14px; }
+    .spotlight-text h3 { font-size: clamp(1.3rem, 2.2vw, 1.85rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.25; margin-bottom: 14px; }
+    .spotlight-text p { color: var(--slate); line-height: 1.75; margin-bottom: 20px; }
+    .spotlight-text .verdict { background: var(--green-pale); border: 1px solid #A7F3D0; border-radius: 8px; padding: 12px 16px; font-size: .82rem; color: #065F46; font-weight: 600; display: flex; align-items: flex-start; gap: 8px; }
+    .spotlight-visual { background: white; border-radius: 20px; padding: 28px; box-shadow: var(--shadow-md); border: 1px solid var(--border); min-height: 260px; display: flex; flex-direction: column; justify-content: center; gap: 12px; }
+
+    /* Heatmap comparison visual */
+    .hm-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .hm-panel { border-radius: 10px; padding: 14px; }
+    .hm-panel.lo-panel { background: var(--orange-pale); border: 1.5px solid rgba(255,107,0,.2); }
+    .hm-panel.hj-panel { background: var(--hotjar-pale); border: 1.5px solid rgba(253,58,92,.2); }
+    .hm-panel-label { font-size: .65rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 10px; }
+    .hm-panel.lo-panel .hm-panel-label { color: var(--orange); }
+    .hm-panel.hj-panel .hm-panel-label { color: var(--hotjar); }
+    .hm-rows { display: flex; flex-direction: column; gap: 5px; }
+    .hm-r { height: 10px; border-radius: 3px; }
+    .hm-r.hot { background: linear-gradient(90deg,#FF3B00,#FF6B00,rgba(255,107,0,.2)); width: 90%; }
+    .hm-r.med { background: linear-gradient(90deg,#FF8C33,rgba(255,140,51,.2)); width: 65%; }
+    .hm-r.low { background: linear-gradient(90deg,#FFBD2E,rgba(255,189,46,.15)); width: 40%; }
+    .hm-r.disabled { background: var(--border); width: 90%; position: relative; }
+    .hm-r.disabled::after { content: '🔒 Upload screenshot required'; position: absolute; left: 8px; top: 50%; transform: translateY(-50%); font-size: .55rem; color: var(--muted); white-space: nowrap; }
+    .hm-r.disabled2 { background: var(--border); width: 65%; }
+    .hm-r.disabled3 { background: var(--border); width: 40%; }
+    .hm-caption { font-size: .65rem; color: var(--muted); margin-top: 8px; line-height: 1.4; }
+
+    /* Recording visual */
+    .rec-compare { display: flex; flex-direction: column; gap: 10px; }
+    .rec-row { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-radius: 8px; font-size: .78rem; }
+    .rec-row.available { background: var(--green-pale); color: #065F46; border: 1px solid #A7F3D0; }
+    .rec-row.locked { background: var(--red-pale); color: #991B1B; border: 1px solid #FECACA; }
+    .rec-row-icon { font-size: 1rem; flex-shrink: 0; }
+    .rec-row-text { flex: 1; }
+    .rec-row-badge { font-size: .65rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; flex-shrink: 0; }
+    .rec-row.available .rec-row-badge { background: var(--green); color: white; }
+    .rec-row.locked .rec-row-badge { background: var(--hotjar); color: white; }
+
+    /* ── TESTIMONIALS ── */
+    .testimonials { background: var(--white); }
+    .testi-inner { max-width: 1040px; margin: 0 auto; }
+    .testi-inner h2 { text-align: center; margin-bottom: 10px; }
+    .testi-inner > p { text-align: center; color: var(--slate); margin-bottom: 48px; }
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .testi-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 14px; }
+    .testi-stars { color: #F59E0B; font-size: .9rem; letter-spacing: 2px; }
+    .testi-source { font-size: .65rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+    .testi-quote { font-size: .875rem; color: var(--slate); line-height: 1.7; }
+    .testi-quote strong { color: var(--navy); }
+    .testi-author { display: flex; align-items: center; gap: 10px; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--border); }
+    .testi-avatar { width: 36px; height: 36px; border-radius: 50%; font-weight: 800; font-size: .85rem; color: white; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .testi-name { font-weight: 700; font-size: .82rem; color: var(--navy); }
+    .testi-role { font-size: .72rem; color: var(--muted); }
+    .switched-badge { display: inline-flex; align-items: center; gap: 4px; background: var(--orange-pale); color: var(--orange); font-size: .62rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; margin-left: 6px; }
+
+    /* ── PRICING PLANS ── */
+    .plans-section { background: var(--bg); }
+    .plans-inner { max-width: 1060px; margin: 0 auto; }
+    .plans-inner h2 { text-align: center; margin-bottom: 10px; }
+    .plans-inner > p { text-align: center; color: var(--slate); margin-bottom: 12px; }
+    .plan-toggle { display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 40px; }
+    .plan-toggle-label { font-size: .85rem; font-weight: 600; color: var(--muted); }
+    .plan-toggle-label.active { color: var(--navy); }
+    .toggle-pill { width: 48px; height: 26px; background: var(--orange); border-radius: 100px; position: relative; cursor: pointer; flex-shrink: 0; }
+    .toggle-dot { width: 20px; height: 20px; background: white; border-radius: 50%; position: absolute; top: 3px; right: 3px; transition: right .2s; }
+    .save-tag { background: var(--green); color: white; font-size: .65rem; font-weight: 700; padding: 2px 8px; border-radius: 100px; }
+    .plans-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+    .plan-card { border-radius: 16px; padding: 24px 18px; border: 1.5px solid var(--border); background: white; text-align: center; transition: box-shadow .2s, border-color .2s; }
+    .plan-card:hover { box-shadow: var(--shadow-md); border-color: var(--orange); }
+    .plan-card.popular { border-color: var(--orange); box-shadow: var(--shadow-md); position: relative; }
+    .popular-tag { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--orange); color: white; font-size: .65rem; font-weight: 700; padding: 3px 14px; border-radius: 100px; white-space: nowrap; }
+    .plan-name { font-size: .8rem; font-weight: 700; color: var(--muted); letter-spacing: .05em; text-transform: uppercase; margin-bottom: 6px; }
+    .plan-sessions { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
+    .plan-price { font-size: 2rem; font-weight: 900; color: var(--navy); letter-spacing: -.04em; line-height: 1; }
+    .plan-price sup { font-size: 1rem; font-weight: 700; }
+    .plan-period { font-size: .7rem; color: var(--muted); margin-top: 4px; margin-bottom: 18px; }
+    .plan-cta { display: block; background: var(--orange); color: white; font-weight: 700; font-size: .8rem; padding: 10px; border-radius: 8px; text-decoration: none; transition: background .2s; }
+    .plan-cta:hover { background: var(--orange-light); }
+    .plan-cta.ghost { background: none; border: 1.5px solid var(--border); color: var(--slate); }
+    .plan-cta.ghost:hover { border-color: var(--orange); color: var(--orange); background: var(--orange-pale); }
+    .plan-feature-note { font-size: .68rem; color: var(--green); font-weight: 600; margin-top: 10px; }
+    .plans-note { text-align: center; font-size: .82rem; color: var(--muted); margin-top: 24px; }
+
+    /* ── FAQ ── */
+    .faq { background: var(--white); }
+    .faq-inner { max-width: 700px; margin: 0 auto; }
+    .faq h2 { text-align: center; margin-bottom: 48px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q { width: 100%; background: none; border: none; text-align: left; padding: 20px 0; font-size: .95rem; font-weight: 600; color: var(--navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq-q:hover { color: var(--orange); }
+    .faq-icon { font-size: 1.3rem; color: var(--orange); flex-shrink: 0; transition: transform .25s; }
+    .faq-a { padding: 0 0 20px; font-size: .9rem; color: var(--slate); line-height: 1.75; display: none; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+    /* ── CTA ── */
+    .cta-banner { background: linear-gradient(135deg, var(--navy) 0%, #1a2f4a 100%); color: white; padding: 88px 5%; text-align: center; position: relative; overflow: hidden; }
+    .cta-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 70% 80% at 50% 110%, rgba(255,107,0,.25) 0%, transparent 70%); }
+    .cta-banner > * { position: relative; }
+    .cta-banner h2 { font-size: clamp(1.8rem, 3.5vw, 2.7rem); margin-bottom: 14px; color: white; }
+    .cta-banner p { font-size: 1.05rem; color: rgba(255,255,255,.65); max-width: 500px; margin: 0 auto 36px; }
+    .cta-checklist { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-top: 22px; }
+    .cta-check { font-size: .82rem; color: rgba(255,255,255,.55); display: flex; align-items: center; gap: 6px; }
+    .cta-check::before { content: '✓'; color: var(--green); font-weight: 700; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--navy); color: rgba(255,255,255,.6); padding: 64px 5% 32px; }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
+    .footer-brand h3 { color: white; font-weight: 800; font-size: 1.05rem; margin-bottom: 10px; }
+    .footer-brand p { font-size: .85rem; line-height: 1.7; }
+    .footer-col h4 { color: white; font-weight: 700; font-size: .85rem; margin-bottom: 16px; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul a { color: rgba(255,255,255,.55); font-size: .85rem; text-decoration: none; transition: color .2s; }
+    .footer-col ul a:hover { color: white; }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: .78rem; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 960px) {
+      .nav-links { display: none; }
+      .pricing-cards { grid-template-columns: 1fr; }
+      .spotlight, .spotlight.reverse { grid-template-columns: 1fr; direction: ltr; gap: 32px; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .plans-grid { grid-template-columns: repeat(2, 1fr); }
+      .verdict-inner { grid-template-columns: 1fr; }
+      .hm-compare { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .comp-table-wrap { overflow-x: auto; }
+    }
+    @media (max-width: 560px) {
+      .plans-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ── ANIMATION ── */
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav aria-label="Main navigation">
+  <a href="/" class="nav-logo">
+    <span class="nav-logo-icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2" stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/><circle cx="9" cy="10" r="1.5"/><circle cx="15" cy="10" r="1.5"/></svg>
+    </span>
+    Lucky Orange
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="/features">Features</a></li>
+    <li><a href="/resources">Resources</a></li>
+    <li><a href="/pricing">Pricing</a></li>
+  </ul>
+  <div class="nav-ctas">
+    <a href="/login" class="btn-ghost">Log in</a>
+    <a href="/signup" class="btn-primary">Start Free Trial</a>
+  </div>
+</nav>
+
+<!-- ── BREADCRUMB ── -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/compare">Compare</a></li>
+    <li>Lucky Orange vs Hotjar</li>
+  </ol>
+</nav>
+
+<!-- ── HERO ── -->
+<header class="hero" role="banner">
+  <div class="vs-badge">
+    <span class="lo">🍊 Lucky Orange</span>
+    <span class="divider">vs</span>
+    <span class="hj">🔥 Hotjar</span>
+    <span style="color:var(--border)">·</span>
+    <span style="color:var(--muted)">2025 Comparison</span>
+  </div>
+  <h1>Lucky Orange Outperforms Hotjar in Features, Pricing, <em>and Value.</em></h1>
+  <p class="hero-sub">Hotjar charges extra for surveys, AI, and feedback tools on top of your base plan. Lucky Orange includes every feature at every plan level — for up to 50% less.</p>
+  <a href="/signup" class="btn-primary btn-primary-lg">Start My Free 7-Day Trial →</a>
+  <p class="hero-trust"><span class="check">✓ No credit card required</span> &nbsp;·&nbsp; Full feature access on every plan &nbsp;·&nbsp; Setup in under 5 minutes</p>
+</header>
+
+<!-- ── VERDICT STRIP ── -->
+<div class="verdict-strip" aria-label="Key comparison statistics">
+  <div class="verdict-inner">
+    <div class="verdict-item">
+      <div class="verdict-num">50%+</div>
+      <div class="verdict-label">Lower cost for comparable plans with all features included</div>
+    </div>
+    <div class="verdict-item">
+      <div class="verdict-num">100%</div>
+      <div class="verdict-label">Of sessions recorded — Hotjar restricts recordings even on paid plans</div>
+    </div>
+    <div class="verdict-item">
+      <div class="verdict-num">$0</div>
+      <div class="verdict-label">Add-on cost for surveys, AI, and feedback — included in every Lucky Orange plan</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FEATURE COMPARISON TABLE ── -->
+<section class="comparison-section" id="comparison" aria-labelledby="comparison-heading">
+  <div class="comparison-inner">
+    <div class="section-label" style="text-align:center">Side-by-Side</div>
+    <h2 id="comparison-heading">Every feature, compared</h2>
+    <p>See exactly what you get — and what Hotjar locks behind higher tiers or add-on fees.</p>
+    <div class="comp-table-wrap fade-in">
+      <table aria-label="Feature comparison between Lucky Orange and Hotjar">
+        <thead>
+          <tr>
+            <th style="width:50%">Feature</th>
+            <th class="lo-col" style="width:25%">🍊 Lucky Orange</th>
+            <th class="hj-col" style="width:25%">🔥 Hotjar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="section-row"><td colspan="3">Analytics Core</td></tr>
+          <tr>
+            <td class="feat-name">Click Heatmaps<div class="feat-sub">See where visitors click across your pages</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans</span></td>
+            <td class="hj-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--muted)">All plans</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Scroll Heatmaps<div class="feat-sub">See how far visitors scroll on each page</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans</span></td>
+            <td class="hj-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--muted)">All plans</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Move Heatmaps<div class="feat-sub">Track mouse movement and cursor attention</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans</span></td>
+            <td class="hj-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--muted)">All plans</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Dynamic Element Heatmaps<div class="feat-sub">Heatmaps on dropdowns, popups, sticky navs</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">Press Shift key</span></td>
+            <td class="hj-col"><span class="no">—</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Screenshot upload required</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Session Recordings<div class="feat-sub">Watch real visitors navigate your site</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">Every session recorded</span></td>
+            <td class="hj-col"><span class="partial">Partial</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Recordings capped by plan</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Conversion Funnels<div class="feat-sub">Visualize and diagnose drop-off steps</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans</span></td>
+            <td class="hj-col"><span class="partial">Partial</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Higher tiers only</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="3">AI & Intelligence</td></tr>
+          <tr>
+            <td class="feat-name">AI-Powered Analysis<div class="feat-sub">Automated behavioral insights and recommendations</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">Discovery AI — all plans</span></td>
+            <td class="hj-col"><span class="partial">Add-on</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Paid upgrade required</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Automated Page Audits<div class="feat-sub">One-click behavioral audit of any page</div></td>
+            <td class="lo-col"><span class="yes">✓</span></td>
+            <td class="hj-col"><span class="no">—</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="3">Voice of Customer</td></tr>
+          <tr>
+            <td class="feat-name">On-Site Surveys<div class="feat-sub">Ask visitors questions directly on your pages</div></td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans, no extra cost</span></td>
+            <td class="hj-col"><span class="partial">Add-on</span><br/><span style="font-size:.7rem;color:var(--hotjar)">+$80+/mo separate product</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Feedback Widgets<div class="feat-sub">Thumbs up/down, star ratings, open text</div></td>
+            <td class="lo-col"><span class="yes">✓</span></td>
+            <td class="hj-col"><span class="partial">Add-on</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Separate Hotjar product</span></td>
+          </tr>
+          <tr class="section-row"><td colspan="3">Setup & Support</td></tr>
+          <tr>
+            <td class="feat-name">Free Plan Available</td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All features included</span></td>
+            <td class="hj-col"><span class="partial">Limited</span><br/><span style="font-size:.7rem;color:var(--hotjar)">Core features only</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Live Chat Support</td>
+            <td class="lo-col"><span class="yes">✓</span><br/><span style="font-size:.7rem;color:var(--green)">All plans</span></td>
+            <td class="hj-col"><span class="partial">Higher tiers</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">GDPR / CCPA Compliant</td>
+            <td class="lo-col"><span class="yes">✓</span></td>
+            <td class="hj-col"><span class="yes">✓</span></td>
+          </tr>
+          <tr>
+            <td class="feat-name">Shopify / WooCommerce Integration</td>
+            <td class="lo-col"><span class="yes">✓</span></td>
+            <td class="hj-col"><span class="yes">✓</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRICING COMPARISON ── -->
+<section class="pricing-section" aria-labelledby="pricing-heading">
+  <div class="pricing-inner">
+    <div class="section-label" style="text-align:center">Pricing</div>
+    <h2 id="pricing-heading">The cost difference isn't small — in many cases it's over 50%.</h2>
+    <p style="max-width:580px;margin:14px auto 48px;">Hotjar's base plan looks affordable — until you add surveys, feedback tools, and AI. Lucky Orange includes all of that by default.</p>
+    <div class="pricing-cards">
+      <div class="pricing-card lo fade-in">
+        <div class="pricing-card-label lo">🍊 Lucky Orange <span class="pricing-winner">WINNER</span></div>
+        <h3>15,000 sessions/month — everything included</h3>
+        <div class="pricing-big"><span class="amount">$89</span><span class="period">/month</span></div>
+        <div class="pricing-sessions">Grow plan · 15,000 monthly sessions</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Heatmaps (click, scroll, move, dynamic)</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Session recordings — every session, no caps</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Discovery AI — included</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Surveys &amp; feedback widgets — included</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Conversion funnels — included</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Live chat support — included</div>
+        <div class="pricing-total">Total: <strong>$89/month</strong> &nbsp;·&nbsp; <span class="save">You save $120+/month vs Hotjar</span></div>
+        <a href="/signup" class="pricing-cta">Start Free 7-Day Trial →</a>
+      </div>
+      <div class="pricing-card hj fade-in">
+        <div class="pricing-card-label hj">🔥 Hotjar — comparable plan</div>
+        <h3>~15,000 sessions/month — core only</h3>
+        <div class="pricing-big"><span class="amount" style="color:var(--hotjar);">$129</span><span class="period">/month</span></div>
+        <div class="pricing-sessions">Observe Business plan · sessions vary</div>
+        <div class="pricing-line"><span class="pricing-line-icon">✅</span> Heatmaps (click, scroll, move)</div>
+        <div class="pricing-line"><span class="pricing-line-icon">⚠️</span> Dynamic elements require screenshot upload</div>
+        <div class="pricing-line"><span class="pricing-line-icon">⚠️</span> Sessions capped — not all sessions recorded</div>
+        <div class="pricing-line"><span class="pricing-line-icon">❌</span> AI features — separate paid add-on</div>
+        <div class="pricing-line"><span class="pricing-line-icon">❌</span> Surveys — separate Hotjar product (+$80+/mo)</div>
+        <div class="pricing-line"><span class="pricing-line-icon">❌</span> Feedback widgets — separate product</div>
+        <div class="pricing-total">Total with add-ons: <strong style="color:var(--hotjar)">$209+/month</strong> &nbsp;·&nbsp; <span class="overpay">135% more than Lucky Orange</span></div>
+        <a href="/signup" class="pricing-cta" style="background:var(--navy);margin-top:20px;">Switch to Lucky Orange →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURE SPOTLIGHTS ── -->
+<section class="spotlights" id="features" aria-labelledby="spotlights-heading">
+  <div style="text-align:center;max-width:580px;margin:0 auto 72px">
+    <div class="section-label">Where Lucky Orange Wins</div>
+    <h2 id="spotlights-heading">The features that make the biggest difference</h2>
+  </div>
+
+  <div class="spotlight fade-in">
+    <div class="spotlight-text">
+      <span class="tag">Dynamic Heatmaps</span>
+      <h3>Hotjar makes you upload screenshots to see dynamic clicks. We don't.</h3>
+      <p>Lucky Orange heatmaps capture clicks and mouse moves on dynamic elements — dropdowns, sticky headers, modals, popups, and forms — in real time. Just press your Shift key. No screenshots, no workarounds, no missing data.</p>
+      <p>With Hotjar, dynamic elements require you to manually capture a screenshot of the state you want to analyze. That means if a dropdown is the problem, you might never see the heatmap data that proves it.</p>
+      <div class="verdict">✓ Lucky Orange shows you what Hotjar can't — without any extra steps.</div>
+    </div>
+    <div class="spotlight-visual">
+      <div style="font-size:.72rem;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;">Click Heatmap — Navigation Dropdown</div>
+      <div class="hm-compare">
+        <div class="hm-panel lo-panel">
+          <div class="hm-panel-label">🍊 Lucky Orange</div>
+          <div class="hm-rows">
+            <div class="hm-r hot"></div>
+            <div class="hm-r med"></div>
+            <div class="hm-r low"></div>
+          </div>
+          <div class="hm-caption">✓ Dynamic dropdown clicks captured automatically</div>
+        </div>
+        <div class="hm-panel hj-panel">
+          <div class="hm-panel-label">🔥 Hotjar</div>
+          <div class="hm-rows">
+            <div class="hm-r disabled"></div>
+            <div class="hm-r disabled2" style="background:var(--border);border-radius:3px;"></div>
+            <div class="hm-r disabled3" style="background:var(--border);border-radius:3px;"></div>
+          </div>
+          <div class="hm-caption" style="color:var(--hotjar);">⚠ Screenshot upload required for dynamic elements</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spotlight reverse fade-in">
+    <div class="spotlight-text">
+      <span class="tag">Session Recordings</span>
+      <h3>Lucky Orange records every session. Hotjar caps yours.</h3>
+      <p>When Hotjar limits your recording count, you're missing real interactions. The sessions that get cut may be exactly the ones where visitors rage-click, abandon forms, or encounter bugs.</p>
+      <p>Lucky Orange records every session you track — no sampling, no caps. You see all user interactions, so no conversion problem hides in the data you didn't capture.</p>
+      <div class="verdict">✓ 100% session coverage means 100% of the picture.</div>
+    </div>
+    <div class="spotlight-visual">
+      <div class="rec-compare">
+        <div style="font-size:.7rem;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px;">Session recording availability</div>
+        <div class="rec-row available">
+          <span class="rec-row-icon">▶</span>
+          <span class="rec-row-text">Visitor rage-clicked checkout button</span>
+          <span class="rec-row-badge">LO: Available</span>
+        </div>
+        <div class="rec-row available">
+          <span class="rec-row-icon">▶</span>
+          <span class="rec-row-text">Mobile visitor — form abandoned at step 2</span>
+          <span class="rec-row-badge">LO: Available</span>
+        </div>
+        <div class="rec-row locked">
+          <span class="rec-row-icon">🔒</span>
+          <span class="rec-row-text">Rage-clicked checkout button</span>
+          <span class="rec-row-badge">HJ: Plan limit</span>
+        </div>
+        <div class="rec-row locked">
+          <span class="rec-row-icon">🔒</span>
+          <span class="rec-row-text">Mobile — form abandoned at step 2</span>
+          <span class="rec-row-badge">HJ: Plan limit</span>
+        </div>
+        <div style="font-size:.72rem;color:var(--muted);margin-top:6px;">These sessions cost you conversions — Hotjar just didn't let you see them.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spotlight fade-in">
+    <div class="spotlight-text">
+      <span class="tag">All-In Pricing</span>
+      <h3>No add-ons. No paywalls. No surprises.</h3>
+      <p>Hotjar splits its product into three separately-priced tools: Observe (recordings/heatmaps), Ask (surveys/feedback), and Engage (user interviews). Getting all three means paying for all three — stacked pricing that adds up fast.</p>
+      <p>Lucky Orange includes surveys, feedback, AI-powered analysis, heatmaps, recordings, and funnels in a single plan. What you see on the pricing page is what you pay.</p>
+      <div class="verdict">✓ One plan. Every tool. No hidden costs.</div>
+    </div>
+    <div class="spotlight-visual">
+      <div style="font-size:.72rem;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px;">Monthly cost to get equivalent features</div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;font-weight:600;margin-bottom:5px;"><span style="color:var(--orange)">🍊 Lucky Orange (Grow plan)</span><span style="color:var(--orange)">$89/mo</span></div>
+          <div style="height:32px;border-radius:6px;background:var(--orange);display:flex;align-items:center;padding-left:12px;font-size:.7rem;font-weight:700;color:white;">Heatmaps + Recordings + AI + Surveys + Funnels</div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;font-weight:600;margin-bottom:5px;"><span style="color:var(--hotjar)">🔥 Hotjar (equivalent)</span><span style="color:var(--hotjar)">$209+/mo</span></div>
+          <div style="display:flex;flex-direction:column;gap:3px;">
+            <div style="height:20px;border-radius:4px;background:var(--hotjar);display:flex;align-items:center;padding-left:10px;font-size:.62rem;color:white;font-weight:600;">Observe (heatmaps + recordings) — $129</div>
+            <div style="height:20px;border-radius:4px;background:#FD6C85;display:flex;align-items:center;padding-left:10px;font-size:.62rem;color:white;font-weight:600;">Ask (surveys + feedback) — $80+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="testimonials" aria-labelledby="testi-heading">
+  <div class="testi-inner">
+    <div class="section-label" style="text-align:center">Real Switchers</div>
+    <h2 id="testi-heading">What teams say after switching from Hotjar</h2>
+    <p>From e-commerce to SaaS, teams consistently find more value — and pay less — with Lucky Orange.</p>
+    <div class="testi-grid">
+      <article class="testi-card fade-in">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-source">G2 Review</div>
+        </div>
+        <p class="testi-quote">"We switched from Hotjar after realizing we were paying for three separate products to get what Lucky Orange includes in one. <strong>The dynamic heatmaps alone were worth the switch</strong> — we finally saw what was happening in our checkout dropdown."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--orange);">MR</div>
+          <div>
+            <div class="testi-name">Marcus R. <span class="switched-badge">↔ Switched from Hotjar</span></div>
+            <div class="testi-role">E-Commerce Director, Apparel Brand</div>
+          </div>
+        </div>
+      </article>
+      <article class="testi-card fade-in">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-source">Capterra Review</div>
+        </div>
+        <p class="testi-quote">"Hotjar kept limiting our recordings on the plan we could afford. We were missing the exact sessions where problems happened. <strong>Lucky Orange records everything</strong> and costs us significantly less per month."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:#7C3AED;">JL</div>
+          <div>
+            <div class="testi-name">Jenna L. <span class="switched-badge">↔ Switched from Hotjar</span></div>
+            <div class="testi-role">Growth Manager, B2B SaaS</div>
+          </div>
+        </div>
+      </article>
+      <article class="testi-card fade-in">
+        <div style="display:flex;align-items:center;justify-content:space-between;">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-source">G2 Review</div>
+        </div>
+        <p class="testi-quote">"I didn't expect the Discovery AI to be so useful. Hotjar's AI was a paid add-on we kept putting off. With Lucky Orange it was just there. <strong>First week using it we found a broken mobile form we'd missed for months.</strong>"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--green);">TW</div>
+          <div>
+            <div class="testi-name">Tom W. <span class="switched-badge">↔ Switched from Hotjar</span></div>
+            <div class="testi-role">Founder, DTC Health Brand</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── PLANS ── -->
+<section class="plans-section" aria-labelledby="plans-heading">
+  <div class="plans-inner">
+    <div class="section-label" style="text-align:center">Lucky Orange Pricing</div>
+    <h2 id="plans-heading">Every feature. Every plan level.</h2>
+    <p style="max-width:520px;margin:14px auto 0;color:var(--slate);">No paywalls. No add-ons. Pick the session volume you need — every tool is included.</p>
+    <div class="plan-toggle" aria-label="Billing period toggle">
+      <span class="plan-toggle-label">Monthly</span>
+      <div class="toggle-pill" role="switch" aria-checked="true" tabindex="0"><div class="toggle-dot"></div></div>
+      <span class="plan-toggle-label active">Yearly <span class="save-tag">Save 20%</span></span>
+    </div>
+    <div class="plans-grid">
+      <div class="plan-card">
+        <div class="plan-name">Free</div>
+        <div class="plan-sessions">100 sessions/mo</div>
+        <div class="plan-price"><sup>$</sup>0</div>
+        <div class="plan-period">forever</div>
+        <a href="/signup" class="plan-cta ghost">Get Started</a>
+        <div class="plan-feature-note">✓ All features included</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Build</div>
+        <div class="plan-sessions">5,000 sessions/mo</div>
+        <div class="plan-price"><sup>$</sup>32</div>
+        <div class="plan-period">/mo billed annually</div>
+        <a href="/signup" class="plan-cta ghost">Get Started</a>
+        <div class="plan-feature-note">✓ All features included</div>
+      </div>
+      <div class="plan-card popular">
+        <div class="popular-tag">Most Popular</div>
+        <div class="plan-name">Grow</div>
+        <div class="plan-sessions">15,000 sessions/mo</div>
+        <div class="plan-price"><sup>$</sup>72</div>
+        <div class="plan-period">/mo billed annually</div>
+        <a href="/signup" class="plan-cta">Get Started</a>
+        <div class="plan-feature-note">✓ All features included</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Expand</div>
+        <div class="plan-sessions">50,000 sessions/mo</div>
+        <div class="plan-price"><sup>$</sup>184</div>
+        <div class="plan-period">/mo billed annually</div>
+        <a href="/signup" class="plan-cta ghost">Get Started</a>
+        <div class="plan-feature-note">✓ All features included</div>
+      </div>
+      <div class="plan-card">
+        <div class="plan-name">Scale</div>
+        <div class="plan-sessions">300,000 sessions/mo</div>
+        <div class="plan-price"><sup>$</sup>720</div>
+        <div class="plan-period">/mo billed annually</div>
+        <a href="/signup" class="plan-cta ghost">Get Started</a>
+        <div class="plan-feature-note">✓ All features included</div>
+      </div>
+    </div>
+    <p class="plans-note">Need more than 300,000 sessions? <a href="/contact" style="color:var(--orange);font-weight:600;">Talk to us about Enterprise →</a></p>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="faq" id="faq" aria-labelledby="faq-heading">
+  <div class="faq-inner">
+    <div class="section-label" style="text-align:center">FAQ</div>
+    <h2 id="faq-heading">Frequently asked questions</h2>
+    <div class="faq-item open">
+      <button class="faq-q" aria-expanded="true">Is Lucky Orange a good Hotjar alternative?<span class="faq-icon">+</span></button>
+      <div class="faq-a">Yes — and for most teams, it's a significant upgrade. Lucky Orange includes heatmaps, session recordings, surveys, feedback tools, AI-powered analysis, and conversion funnels on every plan, including the free tier. Hotjar separates these into multiple products with additional monthly fees. Lucky Orange also records every session without caps, while Hotjar restricts recording counts based on plan level.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">How does Lucky Orange pricing compare to Hotjar?<span class="faq-icon">+</span></button>
+      <div class="faq-a">A comparable Lucky Orange plan (15,000 sessions, all features) runs $89/month. To get a similar feature set from Hotjar — including surveys and AI — you'd pay $129/month for the base Observe plan, then $80+ for the Ask (surveys/feedback) product, totaling $209+/month. Lucky Orange is typically 50% or more less expensive when all features are factored in.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">What does Lucky Orange have that Hotjar doesn't?<span class="faq-icon">+</span></button>
+      <div class="faq-a">The most significant differences are: (1) Dynamic element heatmaps — Lucky Orange captures clicks on dropdowns, modals, and sticky elements natively. Hotjar requires manual screenshot uploads. (2) Full session recording — Lucky Orange records every session you track with no caps. (3) Discovery AI — included in all plans, not a paid add-on. (4) All-in-one pricing — surveys, feedback, funnels, and AI are all included with no separate products to purchase.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">How long does it take to switch from Hotjar to Lucky Orange?<span class="faq-icon">+</span></button>
+      <div class="faq-a">Most teams are fully set up in under 5 minutes. Install the Lucky Orange tracking snippet (available as a one-click integration for Shopify, WordPress, Webflow, and 100+ others), and you'll immediately start capturing heatmap and session recording data. Your 7-day free trial gives you full access to all features so you can validate the switch before committing.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" aria-expanded="false">Does Lucky Orange have a free plan?<span class="faq-icon">+</span></button>
+      <div class="faq-a">Yes. Lucky Orange's free plan includes 100 monthly sessions and access to every feature — heatmaps, session recordings, surveys, Discovery AI, and funnels. Hotjar's free tier limits you to core analytics features only, with surveys and AI requiring a paid upgrade.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-banner" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Stop paying more for less. Switch to Lucky Orange today.</h2>
+  <p>Get every feature — heatmaps, recordings, AI, surveys, and funnels — in a single plan that costs up to 50% less than the Hotjar equivalent.</p>
+  <a href="/signup" class="btn-primary btn-primary-lg">Start My Free 7-Day Trial →</a>
+  <div class="cta-checklist">
+    <span class="cta-check">No credit card required</span>
+    <span class="cta-check">Full feature access immediately</span>
+    <span class="cta-check">Setup in under 5 minutes</span>
+    <span class="cta-check">Cancel anytime</span>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer aria-label="Site footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>🍊 Lucky Orange</h3>
+      <p>Behavioral analytics that help 500,000+ websites understand their visitors and convert more of them — without needing more traffic.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="#">Discovery AI</a></li>
+        <li><a href="#">Heatmaps</a></li>
+        <li><a href="#">Session Recordings</a></li>
+        <li><a href="#">Surveys</a></li>
+        <li><a href="#">Funnels</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Compare</h4>
+      <ul>
+        <li><a href="#">vs Hotjar</a></li>
+        <li><a href="#">vs Microsoft Clarity</a></li>
+        <li><a href="#">vs FullStory</a></li>
+        <li><a href="#">vs Mouseflow</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Integrations</a></li>
+        <li><a href="#">Affiliates</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">GDPR</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Lucky Orange LLC. All rights reserved.</span>
+    <span>Made with ❤️ in Overland Park, KS</span>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+      btn.setAttribute('aria-expanded', !isOpen);
+    });
+  });
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 70);
+      }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
